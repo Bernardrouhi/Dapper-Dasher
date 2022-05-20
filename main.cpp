@@ -78,7 +78,7 @@ int main()
     // character
     Texture2D scarfy = LoadTexture("textures/scarfy.png");
     AnimData scarfyData{
-        {0,0,scarfy.width/6,scarfy.height},
+        {0,0,(float)scarfy.width/6,(float)scarfy.height},
         { windowDimension[0]/2 - scarfyData.rec.width/2, windowDimension[1] -  scarfyData.rec.height},
         0,
         (1.0/12.0),
