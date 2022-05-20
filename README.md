@@ -1,2 +1,2 @@
 # Dapper-Dasher
-Exploring a 2D platform game
+a 2D platform game that player jump over hazards, until reach to the end of the line
